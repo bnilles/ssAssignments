@@ -8,6 +8,8 @@ package com.ss.jb1.assign1;
  *
  */
 public class Pattern {
+	
+	//prints the pattern in part 1
 	public void printPart1() {
 		System.out.println("1)");
 		for(int i = 0; i < 4; i++) {
@@ -17,6 +19,7 @@ public class Pattern {
 		System.out.println(".........");
 	}
 	
+	//prints the pattern in part 2
 	public void printPart2() {
 		System.out.println("2)");
 		System.out.println("..........");
@@ -26,6 +29,7 @@ public class Pattern {
 		}
 	}
 	
+	//prints the pattern in part 3
 	public void printPart3() {
 		System.out.println("3)");
 		for(int i = 0; i < 4; i++) {
@@ -36,6 +40,7 @@ public class Pattern {
 		System.out.println("...........");
 	}
 	
+	//prints the pattern in part 4
 	public void printPart4() {
 		System.out.println("4)");
 		System.out.println("............");
@@ -45,7 +50,7 @@ public class Pattern {
 			System.out.println();
 		}
 	}
-	
+	// prints all 4 patterns at the same time in order
 	public void printAllParts() {
 		this.printPart1();
 		this.printPart2();

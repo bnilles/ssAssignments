@@ -13,11 +13,15 @@ import java.util.Scanner;
 public class Guess {
 
 	private int randomNumber;
+	
+	//generates a random number from 1 to the uperbound(inclusive) and returns it
 	private int getRandomNumber(int upperBound) {
 		Random rand = new Random();
 		return rand.nextInt(upperBound) + 1;
 
 	}
+	
+	// gets the users guess and makes sure that it is a number that is between 1-100(inclusive) and will alert the user if not a number or not in range and returns the users input
 	private int getUserGuess() {
 		int guess = 0;
 		Scanner scanner = new Scanner(System.in);
@@ -42,6 +46,7 @@ public class Guess {
 		}while(true);
 	}
 	
+	// checks if the string passed in is a positive int returns a bool
 	private boolean isPositiveNumber (String str) {
 		if(str == null || str.length() == 0) {
 			return false;
@@ -54,6 +59,7 @@ public class Guess {
 		return true;
 	}
 	
+	//runs the game inputs are number of guess attempts to give user and the distance from random number that counts as a success
 	public void runGame(int guessAttempts, int distanceFromRandom) {
 		int randomNumber = getRandomNumber(100);
 		int userInput = 0;
