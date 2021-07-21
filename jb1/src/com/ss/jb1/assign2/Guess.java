@@ -11,8 +11,6 @@ import java.util.Scanner;
  *
  */
 public class Guess {
-
-	private int randomNumber;
 	
 	//generates a random number from 1 to the uperbound(inclusive) and returns it
 	private int getRandomNumber(int upperBound) {
