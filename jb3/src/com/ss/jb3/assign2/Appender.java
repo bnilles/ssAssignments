@@ -12,6 +12,7 @@ import java.io.FileWriter;
  */
 public class Appender {
 	
+	//this file opens the file and appends the text to the end. inputs are path to file to write to and the string to write, returns true on success and false on failure
 	public Boolean appendTextToFile(String pathToFile, String textToAppend) {
 		
 		try {
