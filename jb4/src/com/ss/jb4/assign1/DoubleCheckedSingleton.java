@@ -1,7 +1,7 @@
 /**
  * 
  */
-package jb4com.ss.jb4.assign1;
+package com.ss.jb4.assign1;
 
 /**
  * @author bnilles
