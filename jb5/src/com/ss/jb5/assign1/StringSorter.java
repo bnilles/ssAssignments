@@ -78,7 +78,7 @@ public class StringSorter {
 	};
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 
 		String[] demoStrings = { "This", "is", "a", "test", "string", "to", "see", "how", "stringSort", "works", "with",
 				"lambdas" };
@@ -119,7 +119,22 @@ public class StringSorter {
 		for (String s : demoStrings) {
 			System.out.println(s);
 		}
-		
+		//test function interface implementation with lambdas
+//		Comparator<String> testSortE = (a,b) -> {
+//			if (a.toLowerCase().contains("e")) {
+//				if (b.toLowerCase().contains("e")) {
+//					return 0;
+//				} else {
+//					return -1;
+//				}
+//			} else {
+//				if (b.toLowerCase().contains("e")) {
+//					return 1;
+//				} else {
+//					return 0;
+//				}
+//			}
+//		};
 		System.out.println("\nSorted 'E' First Using helper method \n");
 		Arrays.sort(demoStrings, sortE);
 		for (String s : demoStrings) {

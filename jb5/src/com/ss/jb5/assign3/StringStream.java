@@ -28,7 +28,7 @@ public class StringStream {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		List<String> strings = new ArrayList<String>();
-		
+		 
 		strings.add("abc");
 		strings.add("basf");
 		strings.add("abcd");

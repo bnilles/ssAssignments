@@ -15,6 +15,7 @@ public class SampleSingleton {
 
 	private static SampleSingleton instance = null;
 	
+	private SampleSingleton() {};
 	
 
 	synchronized public static SampleSingleton getInstance() {
@@ -23,7 +24,11 @@ public class SampleSingleton {
 		}
 		return instance;
 	}
-	
+//	public static void main(String[] args) {
+//		SampleSingleton s1 = new SampleSingleton();
+//		SampleSingleton s2 = new SampleSingleton();
+//		
+//	}
 
 
 }

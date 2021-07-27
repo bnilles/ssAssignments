@@ -10,7 +10,7 @@ import java.util.StringJoiner;
  *
  */
 public class OddOrEven {
-
+ 
 	/**
 	 * @param args
 	 */
@@ -24,11 +24,12 @@ public class OddOrEven {
 				joinNumbers.add("o" + integer);
 			}
 		}
+		
 		return joinNumbers.toString();
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		
 		OddOrEven ooe = new OddOrEven();
 		Integer[] integers  = {1,2,34,4,5,23,32,2,3,0};
