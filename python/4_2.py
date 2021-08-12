@@ -5,4 +5,7 @@ order = [[34587,'Learning Python','Mark Lutz',4,40.95],
         ]
 
 
+
+
+
 print("Order Summary: ",list(map(lambda x: (x[0],x[-1]) if x[-1]*x[-2] > 100 else x[-1]*x[-2]+10, order)))
